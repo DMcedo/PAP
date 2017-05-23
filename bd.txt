@@ -1,0 +1,6 @@
+produtos.............................................................
+categoria VARCHAR(30);
+marca VARCHAR(30);
+preço DEC(3);
+imagem;
+descricao VARCHAR(3000);
