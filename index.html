@@ -3,64 +3,84 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-  	<meta name="author" content="Brad Traversy">
+    <meta name="author" content="Brad Traversy">
     <title>Fit your Gear | Bem-vindo!</title>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Fit</span> your Gear</h1>
-        </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="cliente.html">Área Cliente</a></li>
-            <li><a href="startbootstrap-shop-homepage-gh-pages/produtos.html">Produtos</a></li>
-              <li><a href="ferramenta">Fit your gear</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+</head>
 
+<body>
+    <header>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <a class="navbar-brand" href="../index.html">Fit your Gear</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="cliente.html">Área Cliente</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="ferramenta">Fit your gear</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+    </header>
     <section id="showcase">
-      <div class="container">
-        <h1>Fit your Gear</h1>
-        <p>Descubra a nossa grande variedade de artigos ao seu dispor, bem como as diversas lojas onde poderá ir comprá-los. Terá também ao seu dispôr a nossa ferramenta Fit your Gear, onde poderá ficar a saber qual o melhor tipo de equipamento para o tipo de uso que dá ao seu motociclo.</p>
-      </div>
+        <div class="container">
+            <h1>Fit your Gear</h1>
+            <p>Descubra a nossa grande variedade de artigos ao seu dispor, bem como as diversas lojas onde poderá ir comprá-los. Terá também ao seu dispôr a nossa ferramenta Fit your Gear, onde poderá ficar a saber qual o melhor tipo de equipamento para o tipo de uso que dá ao seu motociclo.</p>
+        </div>
     </section>
 
     <section id="newsletter">
-      <div class="container">
-        <h1>Subscribe To Our Newsletter</h1>
-        <form>
-          <input type="email" placeholder="Enter Email...">
-          <button type="submit" class="button_1">Subscribe</button>
-        </form>
-      </div>
+        <div class="container">
+            <h1>Subscribe To Our Newsletter</h1>
+            <form>
+                <input type="email" placeholder="Enter Email...">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
     </section>
 
     <section id="boxes">
-      <div class="container">
-        <div class="box">
-          <img src="./img/test1.jpg">
-          <h3>Dainese Vr46 Air Tex Rossi Jacket</h3>
+        <div class="container">
+            <div class="box">
+                <img src="./img/test1.jpg">
+                <h3>Dainese Vr46 Air Tex Rossi Jacket</h3>
+            </div>
+            <div class="box">
+                <img src="./img/test2.jpg">
+                <h3>Agv Gt Veloce Txt</h3>
+            </div>
+            <div class="box">
+                <img src="./img/test3.jpg">
+                <h3>Alpinestars Celer Goretex with GoreGrip Technology Gloves</h3>
+            </div>
         </div>
-        <div class="box">
-          <img src="./img/test2.jpg">
-          <h3>Agv Gt Veloce Txt</h3>
-        </div>
-        <div class="box">
-          <img src="./img/test3.jpg">
-          <h3>Alpinestars Celer Goretex with GoreGrip Technology Gloves</h3>
-        </div>
-      </div>
     </section>
 
     <footer>
-      <p>Fit your Gear, Copyright &copy; 2017</p>
+        <p>Fit your Gear, Copyright &copy; 2017</p>
     </footer>
-  </body>
+
+    <!--JQuery-->
+    <script src="js/jquery.js"></script>
+    <!--Bootstrap Core JavaScript-->
+    <script src="js/bootstrap.min.js"></script>
+</body>
 </html>
